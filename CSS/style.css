@@ -1,0 +1,89 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fdde7e;
+}
+
+.container{
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boki{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 361px;
+    height: 442px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(51,51,51);
+    justify-content: space-around;
+    padding: 43px;
+}
+
+.cntr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 361px;
+    height: 501px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(51,51,51);
+    justify-content: space-around;
+    padding: 43px;
+}
+
+.smokegold{
+    margin-left: 35px;
+}
+
+.beangold{
+    margin-left: 40px;
+    margin-top: -63px;
+}
+
+.gold{
+    height: 127px;
+}
+
+.any{
+    width: 120px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.dol{
+    font-family: MisoBold;
+    font-size: 70px;
+    color: #02995b;
+}
+
+.podchash{
+    font-family: Miso;
+    font-size: 56px;
+    color: #333333;
+}
+
+
+
+@font-face{
+    font-family: "MisoBold";
+    src: url(/Fonts/MISO-BOL.OTF);
+}
+
+@font-face{
+    font-family: "Miso";
+    src: url(/Fonts/miso.otf);
+}
+
