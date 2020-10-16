@@ -79,11 +79,11 @@ body{
 
 @font-face{
     font-family: "MisoBold";
-    src: url(/Fonts/MISO-BOL.OTF);
+    src: url(../Fonts/MISO-BOL.OTF);
 }
 
 @font-face{
     font-family: "Miso";
-    src: url(/Fonts/miso.otf);
+    src: url(../Fonts/miso.otf);
 }
 
