@@ -75,7 +75,10 @@ body{
     color: #333333;
 }
 
-
+.link{
+    font-size: 50px;
+    text-align: center;
+}
 
 @font-face{
     font-family: "MisoBold";

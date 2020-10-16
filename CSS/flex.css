@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e2e7ec;
+    font-family: NeueHansKendrickRegular;
+}
+
+.all{
+    width: 1120px;
+    margin: auto;
+    margin-top: 91px;
+}
+
+.auto{
+    width: 740px;
+    height: 540px;
+    background-image: url(../IMG/Layer8.png);
+}
+
+.girl{
+    background-color: white;
+    width: 360px;
+    height: 540px;
+}
+
+.girlfoto{
+    width: 360px;
+}
+.vverx{
+    display: flex;
+    justify-content: space-between;
+}
+
+.niz{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.load{
+    display: flex;
+    margin: auto;
+    margin-top: 79px;
+    margin-bottom: 102px;
+    width: 240px;
+}
+
+.loadimg{
+    margin-right: 20px;
+}
+
+.loadtext{
+    text-transform: uppercase;
+    color: #99a5b0;
+    line-height: 29px;
+}
+
+.november{
+    font-size: 13px;
+    color: #818181;
+    text-transform: uppercase;
+}
+
+.howtofind{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.howtofind1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.cont{
+    margin: 30px 0px 30px 27px;
+}
+
+.lico{
+    margin-top: 60px;
+}
+
+@font-face{
+    font-family: "NeueHansKendrickRegular";
+    src: url(../Fonts/NeueHansKendrickRegular.otf);
+}
