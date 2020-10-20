@@ -71,6 +71,22 @@ body{
     margin-top: 25px;
 }
 
+
+.fantast{
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 10px;
+    width: 378px;
+}
+
+.autotext{
+    margin: 380px 0 0 43px;
+    line-height: 34px;
+}
+
+
 .howtofind1{
     font-size: 22px;
     font-weight: bold;
