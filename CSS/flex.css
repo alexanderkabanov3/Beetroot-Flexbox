@@ -119,8 +119,13 @@ body{
 @media screen and (max-width: 765px){
     .auto{
         transform: scale(0.5);
-        margin-bottom: -134px;
-    
+        margin-bottom: -121px;
+    }
+}
+
+@media screen and (max-width: 765px){
+    .fantast{
+        min-width: 678px;
     }
 }
 
