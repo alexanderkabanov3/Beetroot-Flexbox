@@ -34,7 +34,7 @@ body{
 }
 .vverx{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -101,6 +101,25 @@ body{
 
 .lico{
     margin-top: 60px;
+}
+
+@media screen and (max-width: 1150px){
+    .auto{
+        max-width: 730px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .vverx{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 765px){
+    .auto{
+        max-width: 360px;
+    }
 }
 
 @font-face{
