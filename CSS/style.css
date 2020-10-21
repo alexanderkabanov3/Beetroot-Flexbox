@@ -8,12 +8,14 @@ body{
 }
 
 .container{
-    width: 1200px;
-    height: 600px;
-    margin: auto;
+    max-width: 1200px;
+    height: 100%;
+    margin: 35px auto;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .boki{
@@ -21,12 +23,13 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: white;
-    width: 361px;
+    flex-basis: 361px;
     height: 442px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgb(51,51,51);
     justify-content: space-around;
     padding: 43px;
+    margin-bottom: 20px;
 }
 
 .cntr{
@@ -34,12 +37,13 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: white;
-    width: 361px;
+    flex-basis: 361px;
     height: 501px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgb(51,51,51);
     justify-content: space-around;
     padding: 43px;
+    margin-bottom: 20px;
 }
 
 .smokegold{

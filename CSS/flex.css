@@ -8,7 +8,7 @@ body{
 }
 
 .all{
-    width: 1120px;
+    max-width: 1120px;
     margin: auto;
     margin-top: 91px;
 }
@@ -21,8 +21,8 @@ body{
 
 .girl{
     background-color: white;
-    width: 360px;
-    height: 540px;
+    max-width: 360px;
+    height: 100%;
 }
 
 .girlfoto{
@@ -31,6 +31,7 @@ body{
 .vverx{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .niz{
